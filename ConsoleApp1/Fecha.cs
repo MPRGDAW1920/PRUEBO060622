@@ -10,11 +10,7 @@ namespace Fecha
         public int d;
         public int m;
         public int a;
-        //TODO validar los valores introducidos
-        /// <summary>
-        /// Constructor de Fecha sin parámetros
-        /// Se establecen los valores a 1
-        /// </summary>
+     
         public Fecha()
         {
             d = 1;
@@ -23,14 +19,7 @@ namespace Fecha
 
         }
 
-        /// <summary>
-        /// Constructor de Fecha con 3 parámetros
-        /// Si algún parámetro no es correcto se establece a 1
-        /// </summary>
-        /// <param name="mes">Mes</param>
-        /// <param name="anyo">Anyo (entre 1 y 2500)</param>
-        /// <param name="dia">Dia</param>
-        /// <param name="bi">Indica si es bisiesto</param>
+        
         public Fecha(int mes, int anyo, int dia, bool bi)
         {
             if (anyo >= 1 && anyo <= 2500)

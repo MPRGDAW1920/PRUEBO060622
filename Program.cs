@@ -37,7 +37,7 @@ namespace Fecha
             fecha4.m = 80;
             fecha4.a = 3678;
             Console.WriteLine("Fecha 4: " + fecha4.ToString());
-            //MAL!!
+         
         }
     }
 }
